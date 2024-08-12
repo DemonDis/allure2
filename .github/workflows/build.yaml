@@ -27,7 +27,8 @@ jobs:
           cache: 'gradle'
       - name: Build with Gradle
         # run: ./gradlew build buildDeb buildRpm
-        run: ./gradlew buildDeb -Pversion=2.30.0-1-il
+        # run: ./gradlew buildDeb -Pversion=2.30.0-1-il
+        run: ./gradlew  buildDeb
       - name: Upload allure-commandline artifact
         uses: actions/upload-artifact@v4
         with:
