@@ -29,7 +29,7 @@ import java.util.List;
  *
  * @since 2.0
  */
-public class DateIlPlugin implements Aggregator2 {
+public class DateilPlugin implements Aggregator2 {
 
     public static final String OWNER_BLOCK_NAME = "dateIl";
 
