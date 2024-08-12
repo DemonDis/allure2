@@ -81,7 +81,8 @@
     "duration": "süre",
     "name": "ad",
     "order": "sıralama",
-    "status": "durum"
+    "status": "durum",
+    "dateIl": "date"
   },
   "status": {
     "broken": "Kırık",

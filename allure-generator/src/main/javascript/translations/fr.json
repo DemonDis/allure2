@@ -81,7 +81,8 @@
     "duration": "durée",
     "name": "nom",
     "order": "ordre",
-    "status": "statut"
+    "status": "statut",
+    "dateIl": "date"
   },
   "status": {
     "broken": "Cassé",
