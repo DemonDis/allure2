@@ -144,8 +144,6 @@ public class SuitesPlugin extends CompositeAggregator2 {
             return new TreeWidgetItem()
                     .setUid(group.getUid())
                     .setName(group.getName())
-                    // #IL_add Добавим дату
-                    .setDateIl(group.getDateIl())
                     .setStatistic(calculateStatisticByLeafs(group));
         }
     }

@@ -18,8 +18,6 @@ package io.qameta.allure.tree;
 import io.qameta.allure.entity.TestResult;
 
 import static io.qameta.allure.tree.TreeUtils.createGroupUid;
-// #IL_add Добавим дату
-import static io.qameta.allure.tree.TreeUtils.dateIlTest;
 /**
  * @author charlie (Dmitry Baev).
  */
@@ -33,8 +31,6 @@ public class TestResultTree extends AbstractTree<TestResult, TestResultTreeGroup
                           final TreeGroupFactory<TestResult, TestResultTreeGroup> groupFactory,
                           final TreeLeafFactory<TestResult, TestResultTreeGroup, TestResultTreeLeaf> leafFactory) {
         super(new TestResultTreeGroup(createGroupUid(null, name), name, 
-        // #IL_add Добавим дату
-        dateIlTest(name)),
                 treeClassifier, groupFactory, leafFactory);
     }
 

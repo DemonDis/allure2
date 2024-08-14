@@ -39,6 +39,4 @@ public class Category implements Serializable {
     protected String traceRegex;
     protected List<Status> matchedStatuses = new ArrayList<>();
     protected boolean flaky;
-    // #IL_add Добавим дату
-    protected String dateIl;
 }
